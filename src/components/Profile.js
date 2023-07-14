@@ -1,5 +1,5 @@
 import React from 'react'
-import Typical from "react-typical";
+import { Typewriter } from "react-simple-typewriter";
 import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-scroll';
 
@@ -24,7 +24,8 @@ const Profile = () => {
             Hello , I am  <span className='text-dark-orange'>Vijay Kumar</span>
           </h2>
           <div className="text-3xl text-white mb-4 font-medium lg:inline-block">
-            <Typical steps={[ "Web Developer", 1000,"UI/UX Designer",1000,"Enthusiastic Dev",1000 ]} loop={Infinity} wrapper="p"/>
+            <span className='text-darkblue'>{"_"}</span>
+            <Typewriter words={['Web Developer','UI/UX Designer','Enthusiastic Dev']} loop={false} typeSpeed={100} deleteSpeed={100} delaySpeed={1000}/>
           </div>
           <p className="mb-2 text-white text-lg md:text-xl leading-relaxed">
             Knack of building front-end applications using MERN stack.
