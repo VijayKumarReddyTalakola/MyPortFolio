@@ -6,10 +6,10 @@ import { Link } from 'react-scroll';
 const Profile = () => {
   return (
     <section className="text-gray-600 body-font pt-16 md:pt-16 ">
-      <div className="p-5 pt-10 mx-auto gap-2 flex flex-col md:px-7 lg:py-20 lg:flex-row-reverse items-center min-h-fit">
-        <div className="w-5/6 md:max-w-sm lg:max-w-md sm:w-2/6 lg:mr-20 lg:p-5 lg:w-1/4 ">
+      <div className="p-5 pt-7 mx-auto gap-2 flex flex-col md:pt-12 md:px-7 lg:py-20 lg:flex-row-reverse items-center min-h-fit">
+        <div className="w-5/6 md:max-w-sm lg:max-w-md sm:w-2/6 lg:mr-10 xl:mr-20 lg:p-5 lg:w-1/3 xl:w-1/4 ">
           <img
-            className="object-cover border-2 border-white cursor-pointer rounded-full hover:scale-110 transition duration-1000 ease-in-out"
+            className="object-cover border-2 border-white cursor-pointer rounded-full md:hover:scale-110 transition duration-1000 ease-in-out"
             alt="hero"
             src={require("../assets/Images/Me.jpg")}
           />
@@ -45,7 +45,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-      <div className="hidden md:flex mt-5 md:mt-0 lg:mt-7">
+      <div className="mt-3 md:mt-5 lg:mt-7">
         <img src={require('../assets/Images/wave.png')} alt="Vijay" />
       </div>
     </section>
