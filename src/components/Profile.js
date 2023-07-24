@@ -31,21 +31,21 @@ const Profile = () => {
             Knack of building front-end applications using MERN stack.
           </p>
           <p className="text-lg text-white md:text-xl">I enjoy designing tech websites.</p>
-          <div className="mt-7 flex gap-x-5 justify-center">
-            <button className="inline-flex font-medium text-white bg-black border-2 border-white py-3 px-10 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md">
+          <div className="mt-7 flex gap-x-4 md:gap-x-5 justify-center md:justify-between">
+            <button className="inline-flex font-medium text-white bg-black border-2 border-white py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
               <Link to="contact" spy={true} smooth={true} offset={-100} duration={750}>
                 Hire Me
               </Link>
             </button>
             <a href="https://drive.google.com/file/d/1VDFZqQAfik85oeIKQh5IqwyrDFaIqyVd/view?usp=sharing" target='_blank' rel='noreferrer' >
-              <button className="inline-flex font-medium text-white bg-dark-orange border-2 border-dark-orange py-3 px-10 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md">
+              <button className="inline-flex font-medium text-white bg-dark-orange border-2 border-dark-orange py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
                 Get Resume
               </button>
             </a>
           </div>
         </div>
       </div>
-      <div className="mt-3 md:mt-5 lg:mt-7">
+      <div className="mt-3 md:mt-5 lg:mt-9">
         <img src={require('../assets/Images/wave.png')} alt="Vijay" />
       </div>
     </section>

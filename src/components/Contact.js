@@ -21,29 +21,29 @@ const Contact = () => {
     };
   return (
     <section className="text-gray-600 body-font ">
-      <div className="p-5 mx-auto text-center md:mt-5 md:mx-20 lg:mx-32 xl:mx-56">
+      <div className="p-5 mx-auto text-center md:mt-5 md:mx-16 lg:mx-32 xl:mx-56">
         <div id='contact' className="flex flex-col text-center w-full mb-4 ">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">Contact Me</h1>
           <p className="text-lg mx-auto font-medium text-gray-500 leading-relaxed text-center">Let's Keep in touch.</p>
         </div>
         <div className="flex flex-col gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
-          <div className="p-2 w-full text-center md:p-3 lg:p-7 md:w-1/2 lg:w-4/6">
+          <div className="p-2 w-full text-center lg:p-5 xl:p-7 md:w-1/2 lg:w-4/6">
             <h1 className='hidden md:block text-2xl lg:text-3xl text-dark-orange mb-3 md:mb-4'>Get In Touch</h1>
             <div className="flex gap-5 mb-4 justify-center md:mb-5">
               <a className="text-white text-2xl md:text-xl hover:scale-125" href="https://github.com/VijayKumarReddyTalakola" target="_blank" rel="noreferrer"><FaGithub /></a>
               <a className="text-white text-2xl md:text-xl hover:scale-125" href="https://www.linkedin.com/in/talakola-vijay-kumar-reddy-1b5028231/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
               <a className="text-white text-2xl md:text-xl hover:scale-125" href="https://discord.com/channels/@me" rel="noreferrer" target="_blank"><FaDiscord /></a>
             </div>
-            <div className="flex gap-3 items-center mb-4 md:gap-5">
-              <FaPhoneAlt className='text-white lg:text-lg'/>
+            <div className="flex gap-3 items-center mb-4 md:gap-2 lg:gap-5">
+              <FaPhoneAlt className='text-white lg:text-base'/>
               <p className="text-white md:text-lg ">+91 9515643851</p>
             </div> 
-            <div className="flex gap-3 items-center mb-4 md:gap-5">
-              <FaEnvelope  className='text-white lg:text-lg'/>
+            <div className="flex gap-3 items-center mb-4 md:gap-2 lg:gap-5">
+              <FaEnvelope  className='text-white lg:text-base'/>
               <a href='mailto:talakolavijaykumar@gmail.com' className="text-white md:text-lg">talakolavijaykumar@gmail.com</a>
             </div>
-            <div className="flex gap-3 md:gap-5">
-              <FaMapMarkerAlt className='text-white text-3xl md:text-2xl'/>
+            <div className="flex gap-3 md:gap-2 lg:gap-5">
+              <FaMapMarkerAlt className='text-white text-3xl sm:text-2xl'/>
               <p className="leading-normal text-start text-white md:text-lg">4-126 ,Mallavaram, PedaPalakaluru , Guntur, Andhra Pradesh , India - 522005.</p>
             </div>
           </div>

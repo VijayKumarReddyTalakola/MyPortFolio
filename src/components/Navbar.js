@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header className="text-white body-font fixed top-0 left-0 right-0 z-50 bg-darkblue">
-      <div className="mx-auto py-3 px-5 flex flex-row justify-between items-center md:p-4">
+      <div className="mx-auto py-3 px-5 flex flex-row justify-between items-center md:p-5">
         <Link spy={true} smooth={true} offset={-100} duration={750} to ='home' className="flex justify-center items-center">
           <img className='w-12 h-12 ml-3 cursor-pointer rounded-lg scale-125 lg:scale-150 md:ml-10' src={require('../assets/Images/Name.png')} alt="Vijay" />
         </Link>
