@@ -27,7 +27,7 @@ const About = () => {
                   Hire Me
                 </Link>
               </button>
-              <a href="https://drive.google.com/file/d/1VDFZqQAfik85oeIKQh5IqwyrDFaIqyVd/view?usp=sharing" target='_blank' rel='noreferrer' >
+              <a href="https://drive.google.com/drive/u/1/folders/1VLbE3u0gC3x66ClPWCUmcK75DuhTAyKx" target='_blank' rel='noreferrer' >
                 <button className="inline-flex font-medium text-white bg-dark-orange border-2 border-dark-orange py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
                   Get Resume
                 </button>
