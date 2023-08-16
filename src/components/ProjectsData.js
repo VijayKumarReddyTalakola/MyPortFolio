@@ -13,7 +13,7 @@ const ProjectsData = [
     image: "./ecom.png",
     description:"This is a website which provides all the basic kinds of items to users.",
     github: "https://github.com/VijayKumarReddyTalakola/Ecommerce-Demo",
-    demo: "https://vijay-ecommerce.netlify.app",
+    demo: "https://vijay-ecommerce.vercel.app",
   },
   {
     id: "3",
