@@ -3,6 +3,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
+import ScrollToTopButton from './components/ScrollToTop';
 import Skills from './components/Skills';
 import Home from './pages/Home';
 
@@ -15,6 +16,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <ScrollToTopButton />
     </div>
   );
 }

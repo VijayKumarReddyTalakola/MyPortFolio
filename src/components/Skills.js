@@ -10,7 +10,7 @@ const Skills = () => {
           <h1 className="sm:text-4xl text-3xl font-medium mb-2 text-gray-900">Skills</h1>
           <p className="text-lg font-medium leading-relaxed text-gray-500 ">My Technical Experties</p>
         </div>
-        <div  className="text-center flex justify-center flex-wrap border-t-gray-300  border-2 shadow-xl gap-5 p-4 md:p-5 md:gap-7 lg:gap-5 lg:p-5 xl:gap-10 xl:p-9">
+        <div  className="text-center flex justify-center flex-wrap border-t-gray-200  border-2 shadow-xl gap-5 p-4 md:p-5 md:gap-7 lg:gap-5 lg:p-5 xl:gap-10 xl:p-9">
           {
             SkillsData.map((Skill) => {
               return(
