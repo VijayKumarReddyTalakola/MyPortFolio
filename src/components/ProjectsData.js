@@ -29,7 +29,7 @@ const ProjectsData = [
     image: "./theHindu.png",
     description: "This is TheHindu E-Paper Landing Page designed using HTML and CSS.",
     github: "https://github.com/VijayKumarReddyTalakola/theHindu-Clone",
-    demo: "https://thehindu-epaper-clone.netlify.app",
+    demo: "https://the-hindu-epaper.vercel.app",
   },
   {
     id: "5",
@@ -37,7 +37,7 @@ const ProjectsData = [
     image: "./weatherapp.png",
     description: "This application provides current weather and time about a user specified location .",
     github: "https://github.com/VijayKumarReddyTalakola/Weather-App",
-    demo: "https://weather-time-display.netlify.app",
+    demo: "https://weather-date-time-display.vercel.app",
   },
 ];
 
