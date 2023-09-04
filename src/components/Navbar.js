@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { BiMenu } from  'react-icons/bi'
 import { MdClose } from "react-icons/md";
+import { motion } from "framer-motion";
 
 const Navbar = () => {  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,18 +12,26 @@ const Navbar = () => {
   };
 
   return (
-    <header className="text-white body-font fixed top-0 left-0 right-0 z-50 bg-darkblue">
+    <header className="text-white body-font fixed inset-x-0 z-50 bg-darkblue">
       <div className="mx-auto py-3 px-5 flex flex-row justify-between items-center md:p-5">
         <Link spy={true} smooth={true} offset={-100} duration={750} to ='home' className="flex justify-center items-center">
-          <img className='w-12 h-12 ml-3 cursor-pointer rounded-lg scale-125 lg:scale-150 md:ml-10' src={require('../assets/Images/Name.png')} alt="Vijay" />
+          <motion.img 
+          initial={{ x:-100 }}
+          whileInView={{ x:0 ,scale:1.25 }}
+          transition={{ duration: 0.7}}
+          className='w-12 h-12 ml-3 cursor-pointer rounded-lg scale-125 lg:scale-150 md:ml-10' src={require('../assets/Images/Name.png')} alt="Vijay" />
         </Link>
-        <nav className="hidden md:ml-auto md:flex flex-wrap items-center text-xl justify-center">
+        <motion.nav
+          initial={{ x:100 }}
+          whileInView={{ x: 0 }}
+          transition={{ duration:0.7 }}
+          className="hidden md:ml-auto md:flex flex-wrap items-center text-xl justify-center">
           <Link spy={true} smooth={true} offset={-100} duration={750} to ='home' className="mr-5 cursor-pointer hover:text-dark-orange md:mr-12">Home</Link>
           <Link spy={true} smooth={true} offset={-100} duration={750} to ='about' className="mr-5 cursor-pointer hover:text-dark-orange md:mr-12">About</Link>
           <Link spy={true} smooth={true} offset={-100} duration={750} to ='skills' className="mr-5 cursor-pointer hover:text-dark-orange md:mr-12">Skills</Link>
           <Link spy={true} smooth={true} offset={-100} duration={750} to ='projects' className="mr-5 cursor-pointer hover:text-dark-orange md:mr-12">Projects</Link>
           <Link spy={true} smooth={true} offset={-100} duration={750} to ='contact' className="mr-5 cursor-pointer hover:text-dark-orange md:mr-12">Contact</Link>
-        </nav>
+        </motion.nav>
         <div className="md:hidden mr-2">
           <BiMenu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
         </div>
