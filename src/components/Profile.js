@@ -1,6 +1,5 @@
 import React from 'react'
 import { Typewriter } from "react-simple-typewriter";
-import { FaDiscord, FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaTwitter, FaTelegram } from "react-icons/fa";
 import { Link } from 'react-scroll';
 import SocialHandles from './SocialHandles';
 
