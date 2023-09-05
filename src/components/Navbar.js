@@ -50,7 +50,7 @@ const Navbar = () => {
             })
           }
           <a href="https://drive.google.com/drive/u/1/folders/1VLbE3u0gC3x66ClPWCUmcK75DuhTAyKx" target="_blank" rel="noreferrer">
-            <button className="inline-flex text-white bg-dark-orange py-1 px-4 focus:outline-none hover:text-black rounded-lg text-lg">
+            <button className=" text-white bg-dark-orange py-1 px-4 focus:outline-none hover:text-dark-orange hover:bg-white rounded-lg text-lg">
               Resume
             </button>
           </a>
