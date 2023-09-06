@@ -40,7 +40,7 @@ const Profile = () => {
         </div>
       </div>
       <div className="mt-3 md:mt-5 lg:mt-9">
-        <img src={require("../assets/Images/wave.png")} alt="Vijay" />
+        <img src={require("../assets/Images/wave.png")} alt="Vijay" className='object-cover w-full' />
       </div>
     </section>
   );

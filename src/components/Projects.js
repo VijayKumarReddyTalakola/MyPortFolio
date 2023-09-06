@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
         <div className="flex flex-wrap justify-center mt-4 gap-7 p-5 lg:gap-9">
           {ProjectsData.reverse().map((project) => (
-            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" key={project.id} className="group relative flex flex-col flex-wrap h-80 w-72 shadow-xl rounded-xl ">
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" key={project.id} className="group relative flex flex-col flex-wrap h-80 w-72 shadow-xl rounded-xl xl:w-[19rem] xl:h-5/6">
               <img src={project.image} alt={project.name} className="h-80 rounded-xl"/>
               <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-full transition-[height_0.5s] duration-500 bg-darkblue rounded-xl">
                 <h3 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="text-2xl font-medium text-white my-2">
