@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header className="text-white body-font fixed inset-x-0 z-50 bg-darkblue">
-      <div className="mx-auto py-3 px-5 flex flex-row justify-between items-center md:p-5">
+      <div className="mx-auto py-2 px-5 flex flex-row justify-between items-center md:px-5">
         <Link data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" spy={true} smooth={true} offset={-100} duration={750} to="home" className="flex justify-center items-center">
           <img className="w-12 h-12 ml-3 cursor-pointer rounded-lg scale-125 lg:scale-150 lg:ml-10" src={require("../assets/Images/Name.png")} alt="Vijay"/>
         </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
         </div>
         {isMenuOpen && (
           <div className="absolute inset-x-0 top-0 z-50 origin-top-right transition ease-in-out duration-1000 md:hidden">
-            <div className="rounded-lg bg-darkblue shadow-lg p-5">
+            <div className="rounded-lg bg-darkblue shadow-lg px-5 py-2">
               <div className="flex items-center justify-between">
                 <Link data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" onClick={() => setIsMenuOpen(false)} spy={true} smooth={true} offset={-100} duration={750} to="home" className="flex items-center">
                   <img className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:ml-10 lg:scale-150" src={require("../assets/Images/Name.png")} alt="Vijay"/>

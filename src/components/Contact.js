@@ -25,15 +25,12 @@ const Contact = () => {
   return (
     <section className="text-gray-600 body-font ">
       <div className="p-5 mx-auto text-center md:mt-5 md:mx-16 lg:mx-32 xl:mx-56">
-        <div id="contact" className="flex flex-col text-center w-full mb-4 ">
+        <div  className="flex flex-col text-center w-full mb-4 ">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">
             Contact Me
           </h1>
-          <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="text-lg mx-auto font-medium text-gray-500 leading-relaxed text-center">
-            Let's Keep in touch.
-          </p>
         </div>
-        <div className="flex flex-col gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
+        <div id="contact" className="flex flex-col gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
           <div className="p-2 w-full text-center lg:p-5 xl:p-7 md:w-1/2 lg:w-4/6">
             <h1 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="false" className="hidden md:block text-2xl lg:text-3xl text-dark-orange mb-3 md:mb-4">
               Get In Touch

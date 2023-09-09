@@ -20,7 +20,7 @@ const Profile = () => {
             <Typewriter words={["Web Developer", "Free Lancer", "Enthusiastic Dev"]} loop={false} typeSpeed={100} deleteSpeed={100} delaySpeed={1000}/>
           </div>
           <p data-aos="zoom-in-up" data-aos-duration="2000" data-aos-once="false" className="mb-2 text-white text-lg md:text-xl leading-relaxed">
-            Knack of building front-end applications using MERN stack.
+            Knack of building web applications using MERN stack.
           </p>
           <p data-aos="zoom-in-up" data-aos-duration="2000" data-aos-once="false" className="text-lg text-white md:text-xl">
             I enjoy designing tech websites.

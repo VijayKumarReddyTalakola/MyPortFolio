@@ -21,7 +21,7 @@ const About = () => {
             <p data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="text-lg leading-relaxed">
               A passionate and dedicated web developer with a strong background in creating visually stunning and highly functional websites with 2 years of experience in the field. <br /> <br /> Throughout my career, I have developed proficiency in various web technologies including HTML5, CSS3, JavaScript. I am well-versed in popular frameworks and libraries such as React,Tailwind and Bootstrap allowing me to build robust and responsive websites. <br /> <br /> I'm excited to take on new challenges and contribute to innovative projects. Feel free to connect with me through my social media links.
             </p>
-            <div data-aos="zoom-in" data-aos-duration="2000" data-aos-once="false" className="mt-7 flex gap-x-4 md:gap-x-5 justify-center md:justify-between">
+            <div data-aos="zoom-in" data-aos-duration="1500" data-aos-once="false" className="mt-7 flex gap-x-4 md:gap-x-5 justify-center md:justify-between">
               <button className="inline-flex font-medium text-white bg-black border-2 border-black py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
                 <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>
                   Hire Me
