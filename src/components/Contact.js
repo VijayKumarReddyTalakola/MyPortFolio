@@ -24,8 +24,8 @@ const Contact = () => {
 
   return (
     <section className="text-gray-600 body-font ">
-      <div className="p-5 mx-auto text-center md:mt-5 md:mx-16 lg:mx-32 xl:mx-56">
-        <div  className="flex flex-col text-center w-full mb-4 ">
+      <div className="p-5 mx-auto text-center md:mt-7 md:mx-16 lg:mx-32 xl:mx-56">
+        <div  className="flex flex-col text-center w-full mb-4">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">
             Contact Me
           </h1>

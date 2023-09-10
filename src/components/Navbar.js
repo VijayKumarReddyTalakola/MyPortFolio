@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <header className="text-white body-font fixed inset-x-0 z-50 bg-darkblue">
-      <div className="mx-auto py-2 px-5 flex flex-row justify-between items-center md:px-5">
+      <div className="mx-auto py-2 px-5 flex flex-row justify-between items-center md:px-5 md:py-3">
         <Link data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" spy={true} smooth={true} offset={-100} duration={750} to="home" className="flex justify-center items-center">
           <img className="w-12 h-12 ml-3 cursor-pointer rounded-lg scale-125 lg:scale-150 lg:ml-10" src={require("../assets/Images/Name.png")} alt="Vijay"/>
         </Link>

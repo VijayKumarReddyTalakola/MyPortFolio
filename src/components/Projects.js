@@ -19,11 +19,9 @@ const Projects = () => {
             <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" key={project.id} className="group relative flex flex-col flex-wrap h-80 w-72 shadow-xl rounded-xl xl:w-[19rem] xl:h-5/6">
               <img src={project.image} alt={project.name} className="h-80 rounded-xl"/>
               <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-full transition-[height_0.5s] duration-500 bg-darkblue rounded-xl">
-                <h3 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="text-2xl font-medium text-white my-2">
-                  {project.name}
-                </h3>
+                <h3 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="text-2xl font-medium text-white my-2">{project.name}</h3>
                 <p data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="px-2 text-lg text-white">{project.description}</p>
-                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="flex gap-7 justify-center items-center my-7 text-2xl">
+                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="flex gap-7 justify-center items-center my-7 text-2xl">
                   <div className="bg-white rounded-full p-2">
                     <a className="text-darkblue text-xl bg-white" href={project.github} target="_blank" rel="noopener noreferrer">
                       <FaGithub />
