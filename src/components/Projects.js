@@ -5,18 +5,18 @@ import ProjectsData from "./ProjectsData";
 const Projects = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="p-5 mx-auto mt-5 text-center md:mx-10  md:p-0 lg:mx-16 xl:mx-56">
+      <div className="px-3 py-5 mx-auto text-center sm:mx-6 md:mx-12 md:pt-5 md:mt-5 xl:mx-40">
         <div id="projects" className="flex flex-wrap w-full flex-col items-center text-center">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-3 text-gray-900">
             Projects
           </h1>
           <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="text-lg font-medium leading-relaxed text-gray-500">
             My Works
           </p>
         </div>
-        <div className="flex flex-wrap justify-center mt-4 gap-7 p-5 lg:gap-9">
+        <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-7 sm:gap-x-3 md:gap-x-5 lg:gap-x-2 lg:gap-y-5 xl:gap-y-10 xl:gap-x-5 mt-4 md:mt-8 ">
           {ProjectsData.reverse().map((project) => (
-            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" key={project.id} className="group relative flex flex-col flex-wrap h-80 w-72 shadow-xl rounded-xl xl:w-[19rem] xl:h-5/6">
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" key={project.id} className="group relative flex flex-col flex-wrap h-80 w-[95%] mx-auto shadow-xl rounded-xl ">
               <img src={project.image} alt={project.name} className="h-80 rounded-xl"/>
               <div className="absolute flex flex-col justify-center items-center bottom-0 left-0 right-0 h-0 overflow-hidden group-hover:h-full transition-[height_0.5s] duration-500 bg-darkblue rounded-xl">
                 <h3 data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className="text-2xl font-medium text-white my-2">{project.name}</h3>

@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import { toast } from "react-toastify";
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import SocialHandles from "./SocialHandles";
 
@@ -24,15 +23,18 @@ const Contact = () => {
 
   return (
     <section className="text-gray-600 body-font ">
-      <div className="p-5 mx-auto text-center md:mt-7 md:mx-16 lg:mx-32 xl:mx-56">
-        <div  className="flex flex-col text-center w-full mb-4">
+      <div className="px-3 py-5 mx-auto text-center md:mt-7 sm:mx-7 md:mx-12 lg:mx-32 xl:mx-56">
+        <div id="contact" className="flex flex-col text-center w-full mb-4">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">
             Contact Me
           </h1>
+          <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="text-lg font-medium leading-relaxed text-gray-500 ">
+            Let's keep in touch
+          </p>
         </div>
-        <div id="contact" className="flex flex-col gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
+        <div className="flex flex-col gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
           <div className="p-2 w-full text-center lg:p-5 xl:p-7 md:w-1/2 lg:w-4/6">
-            <h1 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="false" className="hidden md:block text-2xl lg:text-3xl text-dark-orange mb-3 md:mb-4">
+            <h1 data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="false" className="hidden md:block text-2xl lg:text-3xl text-dark-orange mb-3 lg:mb-4">
               Get In Touch
             </h1>
             <div data-aos="zoom-in-down" data-aos-duration="1000" data-aos-once="false" className="flex gap-5 mb-4 justify-center md:mb-5">
@@ -66,7 +68,6 @@ const Contact = () => {
                 Send
               </button>
             </div>
-            <ToastContainer />
           </form>
         </div>
       </div>
