@@ -74,6 +74,21 @@ const SkillsData = [
     name: "Tailwind",
     image: require("../assets/Images/tailwind.png"),
   },
+  {
+    id: "16",
+    name: "Next",
+    image: require("../assets/Images/next.png"),
+  },
+  {
+    id: "17",
+    name: "TypeScript",
+    image: require("../assets/Images/typescript.png"),
+  },
+  {
+    id: "18",
+    name: "React Native",
+    image: require("../assets/Images/react.png"),
+  },
 ];
 
 export default SkillsData;
