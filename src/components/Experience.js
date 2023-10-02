@@ -13,7 +13,7 @@ const  Experience = () => {
             Professional Experience
           </p>
         </div>
-        <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className=" max-w-xl mx-auto p-4 rounded-xl shadow-md bg-slate-200">
+        <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className=" max-w-xl mx-auto p-4 rounded-xl shadow-md bg-slate-100">
           <div className="flex flex-col font-medium gap-1 w-full">
             <h1 className="text-xl md:text-2xl font-semibold">
               Full Stack Developer Intern

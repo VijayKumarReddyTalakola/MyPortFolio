@@ -15,20 +15,11 @@ const SkillsData = [
     image: require("../assets/Images/javascript.png"),
   },
   {
-    id: "4",
-    name: "Git",
-    image: require("../assets/Images/git.png"),
+    id: "17",
+    name: "TypeScript",
+    image: require("../assets/Images/typescript.png"),
   },
-  {
-    id: "5",
-    name: "GitHub",
-    image: require("../assets/Images/github.png"),
-  },
-  {
-    id: "6",
-    name: "MySQL",
-    image: require("../assets/Images/mysql.png"),
-  },
+
   {
     id: "7",
     name: "MongoDB",
@@ -55,6 +46,21 @@ const SkillsData = [
     image: require("../assets/Images/redux.png"),
   },
   {
+    id: "16",
+    name: "Next",
+    image: require("../assets/Images/next.png"),
+  },
+  {
+    id: "15",
+    name: "Tailwind",
+    image: require("../assets/Images/tailwind.png"),
+  },
+  {
+    id: "18",
+    name: "Firebase",
+    image: require("../assets/Images/firebase.png"),
+  },
+  {
     id: "12",
     name: "Python",
     image: require("../assets/Images/python.png"),
@@ -65,29 +71,25 @@ const SkillsData = [
     image: require("../assets/Images/java.png"),
   },
   {
+    id: "6",
+    name: "MySQL",
+    image: require("../assets/Images/mysql.png"),
+  },
+
+  {
+    id: "4",
+    name: "Git",
+    image: require("../assets/Images/git.png"),
+  },
+  {
+    id: "5",
+    name: "GitHub",
+    image: require("../assets/Images/github.png"),
+  },
+  {
     id: "14",
     name: "Linux",
     image: require("../assets/Images/linux.png"),
-  },
-  {
-    id: "15",
-    name: "Tailwind",
-    image: require("../assets/Images/tailwind.png"),
-  },
-  {
-    id: "16",
-    name: "Next",
-    image: require("../assets/Images/next.png"),
-  },
-  {
-    id: "17",
-    name: "TypeScript",
-    image: require("../assets/Images/typescript.png"),
-  },
-  {
-    id: "18",
-    name: "React Native",
-    image: require("../assets/Images/react.png"),
   },
 ];
 
