@@ -50,7 +50,7 @@ const Contact = () => {
             </div>
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" className="flex gap-3 md:gap-2 lg:gap-5">
               <FaMapMarkerAlt className="text-white text-3xl sm:text-2xl" />
-              <a href="https://goo.gl/maps/2ZrHxjNjvwuwenXq6" target="_blank" rel="noreferrer" className="leading-normal text-start text-white md:text-lg">4-126 ,Mallavaram, PedaPalakaluru , Guntur, Andhra Pradesh , India - 522005.</a>
+              <p className="leading-normal text-start text-white md:text-lg">4-126 , Mallavaram , PedaPalakaluru , Guntur , Andhra Pradesh , India - 522005.</p>
             </div>
           </div>
           <form data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" ref={formRef} onSubmit={handleSubmit} className="flex bg-whitesmoke flex-col p-2 rounded-lg md:w-1/2 md:p-4 lg:px-5 lg:py-7 lg:m-4 lg:w-3/5">

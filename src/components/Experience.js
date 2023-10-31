@@ -22,16 +22,16 @@ const  Experience = () => {
               Atoms Digital Solutions
             </p>
             <p className="text-base md:text-base text-gray-500">
-              March, 2023 - Present
+              March , 2023 - Present
             </p>
           </div>
-          <div className=" mt-2 flex w-fit mx-auto">
-            <ul data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className= "pl-3 md:pl-7 list-disc leading-loosed max-w-max text-base text-justify md:text-start md:text-lg font-medium">
-              <li className="py-2 md:py-3">
-                Collaborated with a team of 4 developers to ensure seamless integration of the application.              
-              </li>
+          <div className="flex w-fit mx-auto">
+            <ul data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className= "pl-3 md:pl-7 list-disc leading-loose max-w-max text-base text-justify md:text-start md:text-lg font-medium">
               <li className="py-2 md:py-3">
                 Engineered Vaaradhi Portal, a management website for underprivileged students and orphans with educational facilities.              
+              </li>
+              <li className="py-2 md:py-3">
+                Collaborated with a team of 4 developers to ensure seamless integration of the application.              
               </li>
               <li className="py-2 md:py-3">
                 Implemented the MERN stack (MongoDB, Express.js, React.js, Node.js) with Google Cloud resulting in a 30% reduction in image loading.              
