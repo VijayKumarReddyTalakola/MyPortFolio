@@ -1,5 +1,5 @@
 import { BiLogoBootstrap, BiLogoCss3, BiLogoFirebase, BiLogoMongodb, BiLogoReact, BiLogoRedux, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
-import { TbBrandNextjs, TbApi, TbDatabase } from "react-icons/tb";
+import { TbBrandNextjs, TbApi, TbDatabase, TbBrandPrisma } from "react-icons/tb";
 import { SiThemoviedatabase, SiExpress } from "react-icons/si";
 
 const ProjectsData = [
@@ -39,12 +39,11 @@ const ProjectsData = [
     github: "https://github.com/VijayKumarReddyTalakola/Chat-App",
     demo: "https://vchat4whisperchat.vercel.app",
   },
-
   {
     id: "5",
     name: "Expense Tracker",
     image: "./expense-tracker.png",
-    icons: [BiLogoMongodb,SiExpress,BiLogoReact,BiLogoRedux,BiLogoTailwindCss,],
+    icons: [ BiLogoMongodb, SiExpress, BiLogoReact, BiLogoRedux, BiLogoTailwindCss],
     description: "This application provides an interface for users to track their expenses .",
     github: "https://github.com/VijayKumarReddyTalakola/Expense-Tracker",
     demo: "https://vtrack-expense.vercel.app",
@@ -56,7 +55,25 @@ const ProjectsData = [
     icons: [TbBrandNextjs, BiLogoTypescript, BiLogoTailwindCss, TbApi],
     description: "This is an online platform that allows users to rent cars for personal or business use.",
     github: "https://github.com/VijayKumarReddyTalakola/nextjs-car-rental-app",
-    demo: "https://car-rental-application.vercel.app/",
+    demo: "https://car-rental-application.vercel.app",
+  },
+  {
+    id: "7",
+    name: "A Travel Website",
+    image: "./travel-app.png",
+    icons: [TbBrandNextjs, BiLogoTypescript, BiLogoTailwindCss],
+    description: "This is a simple and sleek UI design for a travel website.",
+    github: "https://github.com/VijayKumarReddyTalakola/Travel-Website",
+    demo: "https://my-travel-website.vercel.app",
+  },
+  {
+    id: "8",
+    name: "Blog Application",
+    image: "./blog-app.png",
+    icons: [TbBrandNextjs, BiLogoTailwindCss, BiLogoMongodb,TbBrandPrisma],
+    description: "This application allows users to express their thoughts and experiences through blogs.",
+    github: "https://github.com/VijayKumarReddyTalakola/Blog-Application",
+    demo: "https://write-ur-blog.vercel.app",
   },
 ];
 
