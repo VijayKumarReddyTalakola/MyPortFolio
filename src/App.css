@@ -7,3 +7,25 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
+.waves > use {
+  animation: move-forever 2s -2s linear infinite;
+}
+
+.waves > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 6s;
+}
+.waves > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 3s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(90px, 0%);
+  }
+}
