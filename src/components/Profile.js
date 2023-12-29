@@ -14,7 +14,7 @@ const Profile = () => {
           className="w-5/6 sm:max-w-xs md:max-w-sm lg:max-w-md sm:w-2/6 lg:mr-10 xl:mr-20 lg:p-5 lg:w-1/3 xl:w-1/4 "
         >
           <img
-            className="object-cover object-center border-2 border-white cursor-pointer rounded-full hover:scale-110 transition duration-1000 ease-in-out backdrop-contrast-200 backdrop-brightness-200"
+            className="object-cover object-center border-2 border-white pointer-events-none rounded-full backdrop-contrast-200 backdrop-brightness-200"
             alt="Vijay"
             src={require("../assets/Images/Me.jpg")}
           />
@@ -35,7 +35,7 @@ const Profile = () => {
             data-aos-once="false"
             className="text-3xl text-white mb-4 font-medium lg:inline-block"
           >
-            <span className="text-darkblue">{"_"}</span>
+            &nbsp;
             <Typewriter
               words={["Web Developer", "Free Lancer", "Enthusiastic Dev"]}
               loop={false}

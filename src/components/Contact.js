@@ -28,7 +28,7 @@ const Contact = () => {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-black">
             Contact Me
           </h1>
-          <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="text-lg font-medium leading-relaxed text-gray-500 ">
+          <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="text-lg font-medium leading-relaxed text-dark-orange ">
             Let's keep in touch
           </p>
         </div>

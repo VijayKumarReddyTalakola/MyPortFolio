@@ -9,11 +9,11 @@ const  Experience = () => {
           <h1 className="text-3xl sm:text-4xl font-medium title-font mb-2">
             Experience
           </h1>
-          <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="text-lg mx-auto leading-relaxed font-medium text-gray-500 text-center">
+          <p data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false" className="text-lg mx-auto leading-relaxed font-medium text-dark-orange text-center">
             Professional Experience
           </p>
         </div>
-        <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" className=" max-w-xl mx-auto p-4 rounded-xl shadow-md bg-slate-100">
+        <div data-aos="zoom-in-up" data-aos-duration="1500" data-aos-once="false" className=" max-w-xl mx-auto p-4 rounded-xl shadow-md bg-slate-100">
           <div className="flex flex-col font-medium gap-1 w-full">
             <h1 className="text-xl md:text-2xl font-semibold">
               Full Stack Developer Intern
