@@ -1,5 +1,5 @@
 import React from "react";
-
+import Atoms from '../assets/Images/atoms.png'
 const  Experience = () => {
 
   return (
@@ -18,9 +18,9 @@ const  Experience = () => {
             <h1 className="text-xl md:text-2xl font-semibold">
               Full Stack Developer Intern
             </h1>
-            <p className="text-lg text-gray-700 md:text-xl">
-              Atoms Digital Solutions
-            </p>
+            <div className="flex items-center justify-center gap-3 text-lg text-gray-700 md:text-xl">
+             <img src={Atoms} alt="Atoms Digital Solution" className="h-10 w-10 lg:h-16 scale-y-150 lg:w-20 bg-transparent mix-blend-multiply" /> Atoms Digital Solutions
+            </div>
             <p className="text-base md:text-base text-gray-500">
               March , 2023 - Present
             </p>

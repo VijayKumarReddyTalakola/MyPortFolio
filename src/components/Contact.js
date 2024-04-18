@@ -41,16 +41,16 @@ const Contact = () => {
               <SocialHandles/>
             </div>
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" className="flex gap-3 items-center mb-4 md:gap-2 lg:gap-5">
-              <FaPhoneAlt className="text-white lg:text-base" />
+              <FaPhoneAlt className="text-white" />
               <p className="text-white md:text-lg ">+91 9515643851</p>
             </div>
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" className="flex gap-3 items-center mb-4 md:gap-2 lg:gap-5">
-              <FaEnvelope className="text-white lg:text-base" />
+              <FaEnvelope className="text-white" />
               <a href="mailto:talakolavijaykumar@gmail.com" className="text-white md:text-lg">talakolavijaykumar@gmail.com</a>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" className="flex gap-3 md:gap-2 lg:gap-5">
-              <FaMapMarkerAlt className="text-white text-3xl sm:text-2xl" />
-              <p className="leading-normal text-start text-white md:text-lg">4-126 , Mallavaram , PedaPalakaluru , Guntur , Andhra Pradesh , India - 522005.</p>
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="false" className="flex gap-3 items-center md:gap-2 lg:gap-5">
+              <FaMapMarkerAlt className="text-white" />
+              <p className="leading-normal text-start text-white md:text-lg">Guntur , Andhra Pradesh , India</p>
             </div>
           </div>
           <form data-aos="zoom-in-up" data-aos-duration="1000" data-aos-once="false" ref={formRef} onSubmit={handleSubmit} className="flex bg-whitesmoke flex-col p-2 rounded-lg md:w-1/2 md:p-4 lg:px-5 lg:py-7 lg:m-4 lg:w-3/5">

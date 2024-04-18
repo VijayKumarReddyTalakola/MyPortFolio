@@ -66,20 +66,19 @@ const SkillsData = [
   },
   {
     id: "14",
-    name: "Python",
-    image: require("../assets/Images/python.png"),
-  },
-  {
-    id: "15",
-    name: "Java",
-    image: require("../assets/Images/java.png"),
-  },
-  {
-    id: "16",
     name: "MySQL",
     image: require("../assets/Images/mysql.png"),
   },
-
+  {
+    id: "15",
+    name: "Postman",
+    image: require("../assets/Images/postman.png"),
+  },
+  {
+    id: "16",
+    name: "VS Code",
+    image: require("../assets/Images/vscode.png"),
+  },
   {
     id: "17",
     name: "Git",
