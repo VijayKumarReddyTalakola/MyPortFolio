@@ -2,33 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { BiMenu } from "react-icons/bi";
 import { MdClose } from "react-icons/md";
-
-const links = [
-  {
-    title: "Home",
-    link: "home",
-  },
-  {
-    title: "About",
-    link: "about",
-  },
-  {
-    title: "Skills",
-    link: "skills",
-  },
-  {
-    title: "Projects",
-    link: "projects",
-  },
-  {
-    title: "Experience",
-    link: "experience",
-  },
-  {
-    title: "Contact",
-    link: "contact",
-  },
-];
+import Navlinks from "../data/navlinks";
+import ProfileData from "../data/profile";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,7 +14,7 @@ const Navbar = () => {
 
   return (
     <header className="text-white body-font fixed inset-x-0 z-50 bg-darkblue">
-      <div className="mx-auto py-2 px-5 flex flex-row justify-between items-center lg:py-4">
+      <div className="mx-auto py-2 px-5 flex flex-row justify-between lg:justify-around items-center lg:py-3">
         <Link
           data-aos="fade-right"
           data-aos-duration="1000"
@@ -49,21 +24,21 @@ const Navbar = () => {
           offset={-100}
           duration={750}
           to="home"
-          className="flex justify-center items-center"
+          className="flex justify-center items-center w-fit"
         >
           <img
-            className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150 lg:ml-10"
-            src={require("../assets/Images/Name.png")}
-            alt="Vijay"
+            className="w-12 h-12 ml-3 cursor-pointer scale-125 lg:scale-150"
+            src={ProfileData.logo}
+            alt={ProfileData.name}
           />
         </Link>
         <nav
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-once="false"
-          className="hidden md:ml-auto lg:flex flex-wrap items-center text-xl justify-center"
+          className="hidden md:mx-auto lg:flex flex-wrap items-center text-lg justify-center gap-12"
         >
-          {links.map((item) => {
+          {Navlinks.map((item) => {
             return (
               <Link
                 key={item.title}
@@ -72,7 +47,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={750}
                 to={item.link}
-                className="mr-5 cursor-pointer hover:text-dark-orange md:mr-12"
+                className="cursor-pointer hover:text-dark-orange"
               >
                 {item.title}
               </Link>
@@ -93,16 +68,31 @@ const Navbar = () => {
             )}
           </button>
         </div>
+        <button
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-once="false"
+          className="hidden lg:flex items-center justify-center w-fit"
+        >
+          <a
+            href={ProfileData.resume}
+            target="_blank"
+            rel="noreferrer"
+            className="leading-none text-white bg-dark-orange py-3 px-10 rounded-lg font-medium text-lg"
+          >
+            Resume
+          </a>
+        </button>
         {isMenuOpen && (
           <div className="min-h-[calc(100vh-4rem)] absolute inset-x-0 top-16 z-50 transition-all ease-in duration-1000 lg:hidden">
-            <div className="rounded-b-lg bg-darkblue shadow-lg px-5 pb-4">
-              <nav
-                data-aos="zoom-in-down"
-                data-aos-duration="1000"
-                data-aos-once="false"
-                className="flex flex-col gap-y-7 text-xl"
-              >
-                {links.map((item) => {
+            <div
+              data-aos="zoom-in-down"
+              data-aos-duration="500"
+              data-aos-once="true"
+              className="rounded-b-lg bg-darkblue shadow-lg px-5 pb-4"
+            >
+              <nav className="flex flex-col gap-y-7 text-xl">
+                {Navlinks.map((item) => {
                   return (
                     <Link
                       key={item.title}
@@ -118,6 +108,14 @@ const Navbar = () => {
                     </Link>
                   );
                 })}
+                <a
+                  href={ProfileData.resume}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-white bg-dark-orange py-2.5 px-10 rounded-lg font-medium text-lg wfit mx-auto"
+                >
+                  Resume
+                </a>
               </nav>
             </div>
           </div>

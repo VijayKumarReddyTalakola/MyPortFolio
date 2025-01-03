@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
+import AboutData from "../data/about";
+import ProfileData from "../data/profile";
 
 const About = () => {
   return (
@@ -28,27 +30,21 @@ const About = () => {
             <img
               className="object-cover object-center pointer-events-none rounded backdrop-contrast-200 backdrop-brightness-200"
               alt="hero"
-              src={require("../assets/Images/about.png")}
+              src={AboutData.image}
             />
           </div>
           <div className="lg:w-1/2 justify-center lg:p-5 xl:p-7 md:p-5 flex flex-col items-center text-justify">
-            <p
-              data-aos="zoom-in"
-              data-aos-duration="1000"
-              data-aos-once="false"
-              className="font-medium text-gray-700 text-lg lg:text-base xl:text-xl leading-loose xl:leading-8"
-            >
-              A passionate and dedicated web developer with a strong background
-              in creating visually stunning and highly functional websites with
-              2 years of experience in the field. <br />
-              <br /> Throughout my career, I have developed proficiency in
-              various web technologies including HTML5 , CSS3 , JavaScript. I am
-              well-versed in popular libraries such as React and frameworks like
-              Next ,Tailwind allowing me to build robust and responsive
-              websites. <br /> <br /> I'm excited to take on new challenges and
-              contribute to innovative projects. Feel free to connect with me
-              through my social media links.
-            </p>
+            {AboutData.description?.map((item, index) => (
+              <p
+                key={index}
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-once="false"
+                className="font-medium text-gray-700 text-lg lg:text-base xl:text-xl leading-loose xl:leading-8 mb-4"
+              >
+                {item}
+              </p>
+            ))}
             <div
               data-aos="zoom-in"
               data-aos-duration="1500"
@@ -66,11 +62,7 @@ const About = () => {
                   Hire Me
                 </Link>
               </button>
-              <a
-                href="https://drive.google.com/drive/u/1/folders/1VLbE3u0gC3x66ClPWCUmcK75DuhTAyKx"
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href={ProfileData.resume} target="_blank" rel="noreferrer">
                 <button className="inline-flex font-medium text-white bg-dark-orange border-2 border-dark-orange py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
                   Get Resume
                 </button>
